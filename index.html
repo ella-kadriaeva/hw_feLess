@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" metod="post" enctype="multipart/form-data">
+      <label for="name">Name</label>
+      <input id="name" tabindex="1" type="text" value="" placeholder="name" />
+      <label for="password">Password</label>
+      <input tabindex="2" type="password" value="" placeholder="Password" />
+      <label for="tel">Telephone</label>
+      <input tabindex="3" type="tel" placeholder="Phone" />
+      <label for="email">Email</label>
+      <input tabindex="5" type="email" placeholder="Email" />
+      <div>
+        <p>
+          <input
+            tabindex="6"
+            type="radio"
+            checked
+            name="gender"
+            value="male"
+          />Male
+        </p>
+        <p>
+          <input tabindex="7" type="radio" name="gender" value="female" />Female
+        </p>
+      </div>
+
+      <p>Cases</p>
+      <p>
+        <input tabindex="8" type="checkbox" checked name="case1" value="yes" />
+        Case 1
+      </p>
+      <p>
+        <input tabindex="9" type="checkbox" disabled name="case2" value="yes" />
+        Case 2
+      </p>
+      <p>
+        <input tabindex="10" type="checkbox" name="case3" value="yes" /> Case 3
+      </p>
+      <p>Next</p>
+      <textarea tabindex="11" name="comments" placeholder="Comments"></textarea>
+      <label for="file">Select a file:</label>
+      <input tabindex="8" type="file" name="file" />
+      <div>
+        <select tabindex="12" name="country">
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="Japan">Japan</option>
+          <option value="China">China</option>
+          <option value="Russia">Russia</option>
+          <option value="Australia">Australia</option>
+          <option value="India">India</option>
+          <option value="Singapore">Singapore</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="Spain">Spain</option>
+          <option value="Italy">Italy</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Netherlands">Netherlands</option>
+        </select>
+      </div>
+      <button tabindex="13" type="submit">Submit</button>
+      <button tabindex="14" type="reset">Reset</button>
+    </form>
+  </body>
+</html>
